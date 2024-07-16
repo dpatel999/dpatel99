@@ -9,13 +9,13 @@ import BottomBar from '@/components/BottomBar';
 const poppins = Poppins({ subsets: ['latin'], weight: ['400', '600', '800'] });
 
 export const metadata: Metadata = {
-    title: "Saif Portfolio",
+    title: "Darshan's Portfolio",
     description:
       "Frontend Developer & Life Enthusiast: I’m the guy who’s been crafting beautiful, responsive websites for over 2 years, working with cool tools like ReactJS, NextJS, Shadcn, Material UI, and Ant Design.",
     openGraph: {
-      title: "Saif Portfolio",
-      siteName: "Saif Portfolio",
-      url: "https://saifhamdare-portfolio.netlify.app",
+      title: "Darshan Portfolio",
+      siteName: "Darshan Portfolio",
+      url: "",
       type: "website",
       description:
         "Frontend Developer & Life Enthusiast: I’m the guy who’s been crafting beautiful, responsive websites for over 2 years, working with cool tools like ReactJS, NextJS, Shadcn, Material UI, and Ant Design.",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     },
     twitter: {
       card: "summary_large_image",
-      title: "Saif Portfolio",
+      title: "Darshan Portfolio",
       description:
         "Frontend Developer & Life Enthusiast: I’m the guy who’s been crafting beautiful, responsive websites for over 2 years, working with cool tools like ReactJS, NextJS, Shadcn, Material UI, and Ant Design.",
       images: [
