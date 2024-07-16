@@ -21,8 +21,19 @@ import {
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 
+interface Project {
+    projectName: string;
+    projectDesc: string;
+    techstack: string;
+    workDone: string;
+    hostedUrl: string;
+    association: string;
+    projectThumbnail: string;
+    images?: string[];
+}
+
 interface ProjectCardProps {
-    data: (typeof projects)[0];
+    data: Project;
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => {
