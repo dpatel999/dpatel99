@@ -16,16 +16,11 @@
       "static/chunks/main-app.js",
       "static/chunks/app/(root)/template.js"
     ],
-    "/(root)/portfolio/page": [
+    "/(root)/about/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/(root)/portfolio/page.css",
-      "static/chunks/app/(root)/portfolio/page.js"
-    ],
-    "/(root)/contact/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(root)/contact/page.js"
+      "static/css/app/(root)/about/page.css",
+      "static/chunks/app/(root)/about/page.js"
     ]
   }
 }
