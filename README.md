@@ -1,7 +1,5 @@
-<<<<<<< HEAD
 # portfolio-2.0
 NextJS based portfolio
-https://saifhamdare-portfolio.netlify.app/
+https://https://main.d2rt4o06eio0zv.amplifyapp.com/
 =======
 # dpatel99
->>>>>>> f9e0b558a5357c6640a76d17d71fa008a4a8fe99
