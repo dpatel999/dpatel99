@@ -16,10 +16,22 @@
       "static/chunks/main-app.js",
       "static/chunks/app/(root)/template.js"
     ],
-    "/_not-found/page": [
+    "/(root)/about/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
+      "static/css/app/(root)/about/page.css",
+      "static/chunks/app/(root)/about/page.js"
+    ],
+    "/(root)/portfolio/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(root)/portfolio/page.css",
+      "static/chunks/app/(root)/portfolio/page.js"
+    ],
+    "/(root)/contact/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(root)/contact/page.js"
     ]
   }
 }
