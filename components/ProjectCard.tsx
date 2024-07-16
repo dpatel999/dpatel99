@@ -2,8 +2,7 @@
 
 import React from 'react';
 import { FollowerPointerCard } from './UI/FollowingPointer';
-import { projects } from '../utils/data';
-
+import { projects } from '@/amplify/data/resource';
 import {
     Button,
     Chip,
@@ -19,7 +18,7 @@ import {
     useDisclosure,
 } from '@nextui-org/react';
 
-import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
 
 interface Project {
