@@ -3,7 +3,6 @@
 import React from 'react';
 import { FollowerPointerCard } from './UI/FollowingPointer';
 import { projects } from '../y/amplify/data/resource'; // Update the path as needed
-
 import {
     Button,
     Chip,
