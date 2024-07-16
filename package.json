@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@aws-amplify/backend": "^1.0.4",
     "@nextui-org/react": "^2.3.6",
     "clsx": "^2.1.1",
     "framer-motion": "^11.1.9",

@@ -1,6 +1,13 @@
 {
+  
   "compilerOptions": {
     "lib": ["dom", "dom.iterable", "esnext"],
+    "baseUrl": ".",
+      "paths": {
+        "@/*": ["src/*"]
+      },
+      "typeRoots": ["node_modules/@types"],
+      "types": ["@aws-amplify/backend"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
