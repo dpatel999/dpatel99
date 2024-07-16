@@ -2214,6 +2214,9 @@ video {
 .w-screen {
   width: 100vw;
 }
+.w-\[300px\] {
+  width: 300px;
+}
 .min-w-10 {
   min-width: 2.5rem;
 }
@@ -8512,6 +8515,10 @@ html {
     width: 300px;
   }
 
+  .md\:w-\[400px\] {
+    width: 400px;
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -8571,6 +8578,10 @@ html {
 
   .lg\:w-\[400px\] {
     width: 400px;
+  }
+
+  .lg\:w-\[600px\] {
+    width: 600px;
   }
 
   .lg\:grid-cols-2 {

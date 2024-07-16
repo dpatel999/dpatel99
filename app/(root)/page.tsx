@@ -6,9 +6,9 @@ import { ChevronRight, DownloadIcon } from 'lucide-react';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: "Saif Hamdare Portfolio | Home",
+    title: "Patel's Portfolio | Home",
     openGraph: {
-      title: "Saif Hamdare Portfolio | Home",
+      title: "Patel's Portfolio | Home",
       url: "https://saifhamdare-portfolio.netlify.app",
       images: [
         {
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       ],
     },
     twitter: {
-      title: "SS Portfolio | Home",
+      title: "Patel's Portfolio | Home",
       images: [
         {
           url: "https://i.ibb.co/5k6rdvF/tabicon.png",
@@ -34,9 +34,9 @@ export default function Home() {
                 <div className='grid lg:grid-cols-2 gap-8 lg:gap-0 items-center'>
                     <div className='justify-self-center'>
                         <Image
-                            src='/small1.png'
+                            src='/IMG_1671.webp'
                             alt={about.name}
-                            className='opacity-100 rounded-full bg-slate-300 dark:bg-slate-900 dark:to-purple-500 w-[200px] md:w-[300px] lg:w-[400px]'
+                            className='opacity-100 rounded bg-slate-300 dark:bg-slate-900 dark:to-purple-500 w-[300px] md:w-[400px] lg:w-[600px]'
                         />
                     </div>
                     <div className='z-10 text-2xl px-4 md:text-4xl lg:text-5xl font-bold text-neutral-700 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center lg:text-left mx-auto '>
