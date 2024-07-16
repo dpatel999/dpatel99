@@ -1,6 +1,6 @@
-import Socials from '@/components/Socials';
-import { HeroHighlight, Highlight } from '@/components/UI/HeroHighlight';
-import { about } from '@/utils/data';
+import Socials from '../../components/Socials';
+import { HeroHighlight, Highlight } from '../../components/UI/HeroHighlight';
+import { about } from '../../utils/data';
 import { Button, Image, Link } from '@nextui-org/react';
 import { ChevronRight, DownloadIcon } from 'lucide-react';
 import { Metadata } from 'next';
