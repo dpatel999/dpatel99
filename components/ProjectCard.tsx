@@ -2,7 +2,8 @@
 
 import React from 'react';
 import { FollowerPointerCard } from './UI/FollowingPointer';
-import { projects } from '@/utils/data';
+import { projects } from '../utils/data';
+
 import {
     Button,
     Chip,
@@ -42,11 +43,11 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => {
     return (
         <>
             <FollowerPointerCard title={data.projectName}>
-                <div className='relative  overflow-hidden h-full rounded-2xl transition duration-200 group bg-gray-200 hover:shadow-xl border-2 border-zinc-100'>
+                <div className='relative overflow-hidden h-full rounded-2xl transition duration-200 group bg-gray-200 hover:shadow-xl border-2 border-zinc-100'>
                     <img
                         src={data.projectThumbnail}
                         alt={data.projectName}
-                        className={`hover:scale-95 mix-blend-multiply  hover:rounded-2xl m-auto transform object-cover transition duration-200`}
+                        className={`hover:scale-95 mix-blend-multiply hover:rounded-2xl m-auto transform object-cover transition duration-200`}
                     />
                     <div className='p-4'>
                         <h2 className='font-bold my-4 text-lg text-zinc-700'>
@@ -74,27 +75,26 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => {
                             {data.projectName}
                         </ModalHeader>
                         <ModalBody>
-                                {data.images && data.images.length ? (
-                                    <Carousel  autoPlay swipeable>
-                                        {data.images.map((img) => (
-                                            <div className='flex justify-center' key={img}>
-                                                <Image
-                                                    className=' md:h-96  h-44 text-center '
-                                                    src={img}
-                                                    alt={data.projectName}
-                                                />
-                                            </div>
-                                        ))}
-                                    </Carousel>
-                                ) : (
-                                    <Image
-                                        className=''
-                                        src={data.projectThumbnail}
-                                        alt={data.projectName}
-                                    />
-                                )}
-                                <ScrollShadow className="h-[300px] md:h-full">
-
+                            {data.images && data.images.length ? (
+                                <Carousel autoPlay swipeable>
+                                    {data.images.map((img) => (
+                                        <div className='flex justify-center' key={img}>
+                                            <Image
+                                                className=' md:h-96  h-44 text-center '
+                                                src={img}
+                                                alt={data.projectName}
+                                            />
+                                        </div>
+                                    ))}
+                                </Carousel>
+                            ) : (
+                                <Image
+                                    className=''
+                                    src={data.projectThumbnail}
+                                    alt={data.projectName}
+                                />
+                            )}
+                            <ScrollShadow className="h-[300px] md:h-full">
                                 <div className='text-sm'>
                                     <p className='text-justify'>
                                         {data.projectDesc}
@@ -110,14 +110,6 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => {
                                                     {data.association}
                                                 </span>
                                             </li>
-                                            {/* <li className='grid grid-cols-3'>
-                                                <span className='text-gray-500 dark:text-gray-400'>
-                                                    Duration:
-                                                </span>
-                                               <span className='col-span-2'>
-                                                    {data.duration}
-                                                </span> 
-                                            </li> */}
                                             <li className='grid grid-cols-3'>
                                                 <span className='text-gray-500 dark:text-gray-400'>
                                                     Preview:
@@ -154,7 +146,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => {
                                         </ul>
                                     </div>
                                 </div>
-                                </ScrollShadow>
+                            </ScrollShadow>
                         </ModalBody>
                         <ModalFooter></ModalFooter>
                     </>
