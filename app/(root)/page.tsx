@@ -54,10 +54,10 @@ export default function Home() {
                             size='sm'
                             className='mt-16 inline-flex md:hidden'
                             as={Link}
-                            href='/saif_resume.pdf'
-                            download={'saif_resume'}
+                            href='/Resume.pdf'
+                            download={'Darshan_Patel_resume_2024_Vancouver'}
                         >
-                            Download Resume <DownloadIcon size={18} />
+                            Download Resume <DownloadIcon size={22} />
                         </Button>
                         <Button
                             variant='solid'
@@ -65,10 +65,10 @@ export default function Home() {
                             size='lg'
                             className='mt-16 hidden md:inline-flex'
                             as={Link}
-                            href='/saif_resume.pdf'
-                            download={'saif_resume'}
+                            href='/Resume.pdf'
+                            download={'Darshan_Patel_resume_2024_Vancouver'}
                         >
-                            Download Resume <DownloadIcon size={18} />
+                            Download Resume <DownloadIcon size={22} />
                         </Button>
                         <Button
                             variant='faded'
