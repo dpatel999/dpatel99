@@ -1,6 +1,6 @@
-import Skills from '@/components/Skills';
-import Timeline from '@/components/Timeline';
-import { about, education, work } from '@/utils/data';
+import Skills from '../../../components/Skills';
+import Timeline from '../../../components/Timeline';
+import { about, education, work } from '../../../utils/data';
 import { Link } from '@nextui-org/react';
 import { BriefcaseBusiness, SchoolIcon } from 'lucide-react';
 import { Metadata } from 'next';

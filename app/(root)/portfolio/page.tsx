@@ -1,5 +1,5 @@
-import ProjectCard from '@/components/ProjectCard';
-import { projects } from '@/utils/data';
+import ProjectCard from '../../../components/ProjectCard';
+import { projects } from '../../../utils/data';
 import { Metadata } from 'next';
 import React from 'react';
 

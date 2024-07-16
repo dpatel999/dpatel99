@@ -1,4 +1,4 @@
-import { about } from '@/utils/data';
+import { about } from '../utils/data';
 import { Button, Link } from '@nextui-org/react';
 import React from 'react';
 

@@ -1,6 +1,6 @@
-import Socials from '@/components/Socials';
-import { LampContainer } from '@/components/UI/Lamp';
-import { about } from '@/utils/data';
+import Socials from '../../../components/Socials';
+import { LampContainer } from '../../../components/UI/Lamp';
+import { about } from '../../../utils/data';
 import { Link } from '@nextui-org/react';
 import { Metadata } from 'next';
 import React from 'react';

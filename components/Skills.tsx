@@ -1,6 +1,6 @@
 'use client';
 
-import { about } from '@/utils/data';
+import { about } from '../utils/data';
 import { Tabs, Tab, Card, CardBody, Chip } from '@nextui-org/react';
 import React from 'react';
 
