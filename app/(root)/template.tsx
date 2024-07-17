@@ -15,6 +15,15 @@ export default function Template({ children }: { children: React.ReactNode }) {
     const pathname = usePathname();
     return (
         <>
+        {/* <!-- Google tag (gtag.js) --> */}
+            <Script async src="https://www.googletagmanager.com/gtag/js?id=G-RD2ZJ75HVP"></Script>
+            <Script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-RD2ZJ75HVP');
+            </Script>
             <Script
                 id="clarity-script"
                 strategy="afterInteractive"
