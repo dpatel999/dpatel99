@@ -177,7 +177,6 @@ export const projects = [
     techstack:
       "Shopify, Next.js, Strapi, AWS, Terraform, CloudFormation, OAuth, JWT",
     workDone: "Full Stack Development",
-    // hostedUrl: "",
     association: "Sleep Country",
     impact:
       "Reduced page load times by 20%, increased user engagement by 25%, and improved eCommerce conversion rates by 15%.",
