@@ -177,7 +177,7 @@ export const projects = [
     techstack:
       "Shopify, Next.js, Strapi, AWS, Terraform, CloudFormation, OAuth, JWT",
     workDone: "Full Stack Development",
-    hostedUrl: "",
+    // hostedUrl: "",
     association: "Sleep Country",
     impact:
       "Reduced page load times by 20%, increased user engagement by 25%, and improved eCommerce conversion rates by 15%.",
@@ -189,7 +189,6 @@ export const projects = [
     techstack:
       "Shopify Liquid, Hydrogen, React, Microsoft Power Automate, Tailwind CSS, TypeScript",
     workDone: "Full Stack Development",
-    hostedUrl: "",
     association: "Understance",
     impact:
       "Enhanced operational efficiency by 30% and improved customer return process efficiency by 40%.",
@@ -201,7 +200,6 @@ export const projects = [
     techstack:
       "Power Platform, PowerApps, Power Automate, RPA, Shopify Liquid, React, Dataverse, SharePoint",
     workDone: "Application Development",
-    hostedUrl: "",
     association: "Understance",
     impact:
       "Enhanced departmental efficiency by 35%, improved data collection by 25%, and streamlined business processes.",
@@ -212,7 +210,6 @@ export const projects = [
       "Developed professional websites from the ground up using WordPress. Reduced development time by 25%, improved website performance by 20%, and enhanced customer satisfaction by 30%.",
     techstack: "WordPress, HTML, CSS, JavaScript, jQuery",
     workDone: "Web Development",
-    hostedUrl: "",
     association: "Pixel Architect",
     impact:
       "Reduced development time by 25%, improved website performance by 20%, and enhanced customer satisfaction by 30%.",
@@ -223,7 +220,6 @@ export const projects = [
       "Developed mobile and web applications using ReactJS and React Native at BC Lottery Corporation. Improved application performance by 30%, enhanced user satisfaction by 20%, and streamlined the lottery purchase process.",
     techstack: "ReactJS, React Native, AWS, TDD, Agile",
     workDone: "Software Development",
-    hostedUrl: "",
     association: "BC Lottery Corporation",
     impact:
       "Improved application performance by 30%, enhanced user satisfaction by 20%, and streamlined the lottery purchase process.",
@@ -234,7 +230,6 @@ export const projects = [
       "Conducted comprehensive client meetings to understand website requirements and successfully deliver tailored solutions. Delivered 20+ successful projects, improved client satisfaction by 40%, and increased website performance by 25%.",
     techstack: "React, Shopify, WordPress, AWS, LAMP",
     workDone: "Freelance Development",
-    hostedUrl: "",
     association: "Various Clients",
     impact:
       "Delivered 20+ successful projects, improved client satisfaction by 40%, and increased website performance by 25%.",
@@ -245,7 +240,6 @@ export const projects = [
       "Co-founded an innovative startup, CarGO Marketplace, and developed an e-commerce application using React Native Framework. Grew user base to 10,000+ within 6 months, improved transaction completion rates by 35%, and achieved a 30% increase in user retention.",
     techstack: "React Native, Firebase, Google Cloud",
     workDone: "Startup Development",
-    hostedUrl: "",
     association: "CarGO Marketplace",
     impact:
       "Grew user base to 10,000+ within 6 months, improved transaction completion rates by 35%, and achieved a 30% increase in user retention.",
@@ -256,7 +250,6 @@ export const projects = [
       "Designed and implemented complex automation workflows using PowerApps and Power Automate to streamline business processes.",
     techstack: "PowerApps, Power Automate",
     workDone: "Automation Development",
-    hostedUrl: "",
     association: "Various Projects",
     impact: "Streamlined business processes, enhancing efficiency by 30%.",
   },
@@ -266,7 +259,6 @@ export const projects = [
       "Developed secure web applications using OAuth, JWT, and SSL/TLS, adhering to OWASP standards.",
     techstack: "OAuth, JWT, SSL/TLS",
     workDone: "Web Development",
-    hostedUrl: "",
     association: "Various Projects",
     impact:
       "Enhanced application security, ensuring compliance with industry standards.",
@@ -277,7 +269,6 @@ export const projects = [
       "Leveraged scikit-learn and TensorFlow to develop predictive models and data analysis tools for business insights.",
     techstack: "scikit-learn, TensorFlow",
     workDone: "Machine Learning",
-    hostedUrl: "",
     association: "Various Projects",
     impact:
       "Developed predictive models with 85% accuracy, providing valuable business insights.",
@@ -288,7 +279,6 @@ export const projects = [
       "Created and managed CI/CD pipelines using Jenkins and GitHub Actions, automating deployments and improving development cycles.",
     techstack: "Jenkins, GitHub Actions",
     workDone: "DevOps",
-    hostedUrl: "",
     association: "Various Projects",
     impact: "Automated deployments, reducing release times by 50%.",
   },
@@ -298,7 +288,6 @@ export const projects = [
       "Developed robust cross-platform applications using React Native and React, enhancing user experience across devices.",
     techstack: "React Native, React",
     workDone: "Cross-Platform Development",
-    hostedUrl: "",
     association: "Various Projects",
     impact:
       "Enhanced user experience across multiple devices, improving user engagement by 20%.",
