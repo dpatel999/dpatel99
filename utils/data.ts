@@ -179,13 +179,6 @@ export const projects = [
     workDone: "Full Stack Development",
     hostedUrl: "",
     association: "Sleep Country",
-    images: [
-      "/projects/assets/carepalsecure/eCommerce.webp",
-      "/projects/assets/carepalsecure/eCommerce.webp",
-      "/projects/assets/carepalsecure/eCommerce.webp",
-      "/projects/assets/carepalsecure/eCommerce.webp",
-      "/projects/assets/carepalsecure/eCommerce.webp",
-    ],
     impact:
       "Reduced page load times by 20%, increased user engagement by 25%, and improved eCommerce conversion rates by 15%.",
   },
@@ -198,13 +191,6 @@ export const projects = [
     workDone: "Full Stack Development",
     hostedUrl: "",
     association: "Understance",
-    images: [
-      "/projects/assets/carepalsecure/developer.webp",
-      "/projects/assets/carepalsecure/developer.webp",
-      "/projects/assets/carepalsecure/developer.webp",
-      "/projects/assets/carepalsecure/developer.webp",
-      "/projects/assets/carepalsecure/developer.webp",
-    ],
     impact:
       "Enhanced operational efficiency by 30% and improved customer return process efficiency by 40%.",
   },
@@ -217,13 +203,6 @@ export const projects = [
     workDone: "Application Development",
     hostedUrl: "",
     association: "Understance",
-    images: [
-      "/projects/assets/carepalsecure/developer.webp",
-      "/projects/assets/carepalsecure/developer.webp",
-      "/projects/assets/carepalsecure/developer.webp",
-      "/projects/assets/carepalsecure/developer.webp",
-      "/projects/assets/carepalsecure/developer.webp",
-    ],
     impact:
       "Enhanced departmental efficiency by 35%, improved data collection by 25%, and streamlined business processes.",
   },
@@ -235,13 +214,6 @@ export const projects = [
     workDone: "Web Development",
     hostedUrl: "",
     association: "Pixel Architect",
-    images: [
-      "/projects/assets/carepalsecure/developer.webp",
-      "/projects/assets/carepalsecure/developer.webp",
-      "/projects/assets/carepalsecure/developer.webp",
-      "/projects/assets/carepalsecure/developer.webp",
-      "/projects/assets/carepalsecure/developer.webp",
-    ],
     impact:
       "Reduced development time by 25%, improved website performance by 20%, and enhanced customer satisfaction by 30%.",
   },
@@ -253,13 +225,6 @@ export const projects = [
     workDone: "Software Development",
     hostedUrl: "",
     association: "BC Lottery Corporation",
-    images: [
-      "/projects/assets/carepalsecure/developer.webp",
-      "/projects/assets/carepalsecure/developer.webp",
-      "/projects/assets/carepalsecure/developer.webp",
-      "/projects/assets/carepalsecure/developer.webp",
-      "/projects/assets/carepalsecure/developer.webp",
-    ],
     impact:
       "Improved application performance by 30%, enhanced user satisfaction by 20%, and streamlined the lottery purchase process.",
   },
@@ -271,13 +236,6 @@ export const projects = [
     workDone: "Freelance Development",
     hostedUrl: "",
     association: "Various Clients",
-    images: [
-      "/projects/assets/carepalsecure/developer.webp",
-      "/projects/assets/carepalsecure/developer.webp",
-      "/projects/assets/carepalsecure/developer.webp",
-      "/projects/assets/carepalsecure/developer.webp",
-      "/projects/assets/carepalsecure/developer.webp",
-    ],
     impact:
       "Delivered 20+ successful projects, improved client satisfaction by 40%, and increased website performance by 25%.",
   },
@@ -289,13 +247,6 @@ export const projects = [
     workDone: "Startup Development",
     hostedUrl: "",
     association: "CarGO Marketplace",
-    images: [
-      "/projects/assets/carepalsecure/developer.webp",
-      "/projects/assets/carepalsecure/developer.webp",
-      "/projects/assets/carepalsecure/developer.webp",
-      "/projects/assets/carepalsecure/developer.webp",
-      "/projects/assets/carepalsecure/developer.webp",
-    ],
     impact:
       "Grew user base to 10,000+ within 6 months, improved transaction completion rates by 35%, and achieved a 30% increase in user retention.",
   },
@@ -307,13 +258,6 @@ export const projects = [
     workDone: "Automation Development",
     hostedUrl: "",
     association: "Various Projects",
-    images: [
-      "/projects/assets/carepalsecure/developer.webp",
-      "/projects/assets/carepalsecure/developer.webp",
-      "/projects/assets/carepalsecure/developer.webp",
-      "/projects/assets/carepalsecure/developer.webp",
-      "/projects/assets/carepalsecure/developer.webp",
-    ],
     impact: "Streamlined business processes, enhancing efficiency by 30%.",
   },
   {
@@ -324,13 +268,6 @@ export const projects = [
     workDone: "Web Development",
     hostedUrl: "",
     association: "Various Projects",
-    images: [
-      "/projects/assets/carepalsecure/developer.webp",
-      "/projects/assets/carepalsecure/developer.webp",
-      "/projects/assets/carepalsecure/developer.webp",
-      "/projects/assets/carepalsecure/developer.webp",
-      "/projects/assets/carepalsecure/developer.webp",
-    ],
     impact:
       "Enhanced application security, ensuring compliance with industry standards.",
   },
@@ -342,13 +279,6 @@ export const projects = [
     workDone: "Machine Learning",
     hostedUrl: "",
     association: "Various Projects",
-    images: [
-      "/projects/assets/carepalsecure/developer.webp",
-      "/projects/assets/carepalsecure/developer.webp",
-      "/projects/assets/carepalsecure/developer.webp",
-      "/projects/assets/carepalsecure/developer.webp",
-      "/projects/assets/carepalsecure/developer.webp",
-    ],
     impact:
       "Developed predictive models with 85% accuracy, providing valuable business insights.",
   },
