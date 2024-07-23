@@ -1,5 +1,6 @@
 import React from "react";
-import { Card, Chip } from "@material-ui/core";
+import Card from "@mui/material/Card";
+import Chip from "@mui/material/Chip";
 
 interface Project {
   projectName: string;
