@@ -296,14 +296,6 @@ export const projects = [
     title: "Shopify/Next.js Developer",
     location: "Sleep Country, Vancouver, BC",
     date: "Jun 2023 - Present",
-    description: `- Engineered and transitioned the eCommerce platform to a headless architecture using Shopify and Strapi.
-- Utilized AWS services for scalable hosting, serverless functions, and robust data storage solutions.
-- Developed and deployed new features for the headless eCommerce site, ensuring seamless integration with third-party APIs.
-- Applied best practices for frontend performance optimization, reducing load times and enhancing user experience.
-- Conducted cross-browser and device testing to ensure compatibility and responsiveness.
-- Managed integrations with various third-party systems, including payment gateways and inventory management systems.
-- Implemented DevOps practices, including CI/CD pipelines and infrastructure as code (IaC) using AWS CloudFormation and Terraform.
-- Ensured application security through the implementation of OAuth, JWT, and adherence to OWASP standards.
-- Collaborated with cross-functional teams to stay abreast of industry trends and emerging technologies.`,
+    description: `- Engineered and transitioned the eCommerce platform to a headless architecture using Shopify and Strapi.`,
   },
 ];
