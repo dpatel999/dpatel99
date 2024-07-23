@@ -16,16 +16,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/(root)/template.js"
     ],
-    "/(root)/about/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(root)/about/page.css",
-      "static/chunks/app/(root)/about/page.js"
-    ],
     "/(root)/portfolio/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(root)/portfolio/page.js"
+    ],
+    "/_not-found/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/_not-found/page.js"
     ]
   }
 }
